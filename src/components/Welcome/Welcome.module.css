@@ -1,0 +1,133 @@
+.container{
+    width: 100%;
+    height: 100vh;
+   /*  background-color: black; */
+   background-image: url("https://cdn.pixabay.com/photo/2018/10/17/16/30/night-3754297_1280.jpg");
+    background-size: cover;
+}
+.titulo{
+
+    font-family: monospace;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    
+}
+.titulo h2{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    color: white;
+    font-size: 8em;
+    cursor: pointer;
+    margin-top: 20%;
+}
+
+.titulo h2 span{
+    position: relative;
+    filter: blur(5px);
+    padding:  0 5px;
+    transition: 0.5s;
+    height: 100px; 
+}
+.titulo h2 span:hover{
+    filter: blur(0px);
+    transition: 0s;
+}
+
+.titulo span i{
+    position: absolute;
+    inset: 0;
+    height: 50px; 
+    background-color: transparent;
+}
+
+.titulo span:hover i::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 16px;
+    background-color: #fff;
+    box-shadow: 0 106px  #fff,
+     72px 106px #fff,
+     72px 0 #fff
+}
+.titulo span:hover i::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 4px;
+    background-color: #fff;
+    box-shadow: 0 120px  #fff,
+     60px 120px #fff,
+     60px 0 #fff
+}
+
+
+
+
+
+.rain{
+    height: 100vh;
+    background-image: url("./rain.png");
+    animation: rain .7s linear infinite;
+    opacity: 80%;
+}
+@keyframes rain{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 20% 100%;
+    }
+
+}
+
+.raindrop{
+    content: "";
+    position: absolute;
+/*     top: -50px; */
+    
+    width: 100%;
+    height: 100%;
+    background-image: url("./lightining.png");
+
+    transform:rotate(180deg) ;
+    animation: lightining 3s linear infinite;
+    opacity: 1;
+}
+@keyframes lightining{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    21%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    31%{
+        opacity: 1;
+    }
+    35%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
