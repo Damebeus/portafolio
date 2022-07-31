@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "../AboutMe/AboutMe";
 import Welcome from "../Welcome/Welcome";
 
 const Home = () => {
@@ -6,6 +7,9 @@ const Home = () => {
     <div>
       <div>
         <Welcome />
+      </div>
+      <div>
+        <AboutMe />
       </div>
     </div>
   );

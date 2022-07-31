@@ -44,6 +44,9 @@ const Welcome = () => {
             </span>
           </h2>
         </div>
+        <div className={style.mouseScroll}>
+          <div className={style.arrowScroll}></div>
+        </div>
       </div>
     </div>
   );
