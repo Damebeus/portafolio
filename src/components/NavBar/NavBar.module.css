@@ -19,7 +19,7 @@
     height: 100%;
 
   }
-  .botones label{
+/*   .botones a{
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
@@ -29,19 +29,30 @@
     font-size: 1.4rem;
     font-weight: bold;
     padding-right: 15px;
-  /*   border-bottom: #1BD682 solid 2px;
- */
+
   }
-    .botones label:hover{
+    .botones a:hover{
         color: #1BD682;
+    } */
+  
+
+    .selectedLink {
+        color: #05321e;
     }
 
-
-    .selectedLink{
-        color: #1BD682;
+    .links {
+      color: #ffffff;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin-right: 1.2rem;
+      cursor: pointer;
+      font-family: monospace;
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding-right: 15px;
     }
-
-    .links{
+    .links:hover{
       color: #1BD682;
-    }
-    
+  } 
+  

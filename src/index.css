@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+
+}
+*::selection{
+  background: #1BD682;
+  color: rgb(0, 0, 0);
 }
 
 body {

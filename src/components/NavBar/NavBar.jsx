@@ -14,7 +14,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          <label>Home</label>
+          Home
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -24,7 +24,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          <label>About</label>
+          About
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -34,7 +34,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          <label>Skills</label>
+          Skills
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -44,7 +44,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          <label>Projects</label>
+          Projects
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -54,9 +54,18 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          <label>Certificates</label>
+          Certificates
         </Link>
-        <label>Contact</label>
+        <Link
+          activeClass={style.selectedLink}
+          className={style.links}
+          to='Contact'
+          spy={true}
+          smooth={true}
+          duration={800}
+        >
+          Contact
+        </Link>
       </div>
     </div>
   );
