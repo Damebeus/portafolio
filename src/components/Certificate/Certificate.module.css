@@ -1,0 +1,19 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #0F0F11;
+    background: -moz-linear-gradient(top, #0F0F11 0%, #0F0F11 72%, #000000 100%);
+    background: -webkit-linear-gradient(top, #0F0F11 0%, #0F0F11 72%, #000000 100%);
+    background: linear-gradient(to bottom, #0F0F11 0%, #0F0F11 72%, #000000 100%);
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1BD682;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 45%;
+    position: absolute;
+    
+
+}
