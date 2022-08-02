@@ -142,7 +142,7 @@
     border-radius: 30px;
     position: relative;
     margin-top: -100px;
-    margin-left: 52%;
+    margin-left: 50%;
 }
 
 .mouseScroll::before{

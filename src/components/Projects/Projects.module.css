@@ -16,9 +16,11 @@
         font-weight: bold;
         color: #1BD682;
         text-align: center;
-        margin-top: 50px;
-        margin-left: 45%;
-        position: absolute;
+        
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 50px;   
         
     
 }
