@@ -62,10 +62,13 @@ const Contact = () => {
               <a href='https://github.com/Damebeus' target='_blank'>
                 <AiFillGithub />
               </a>
-              <a href='https://www.instagram.com/damebeus/' target='_blank'>
+              <a href='https://www.instagram.com/damian_ebeus/' target='_blank'>
                 <AiOutlineInstagram />
               </a>
-              <a href='https://www.linkedin.com/in/damebeus/' target='_blank'>
+              <a
+                href='https://www.linkedin.com/in/damian-ebeus/'
+                target='_blank'
+              >
                 <AiFillLinkedin />
               </a>
             </div>

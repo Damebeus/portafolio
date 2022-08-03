@@ -22,7 +22,7 @@ const Projects = () => {
       url: "https://res.cloudinary.com/dbgreenshop/image/upload/v1659245320/wwwww-removebg-preview_v51ufv.png",
       name: "Grow shop Eccomerce",
       description:
-        "Functional ecommerce with a cannabis theme, it has a shopping cart, Mercado pago, register and login with firebase, a relational database that saves user purchases and an administrator panel.",
+        "Functional ecommerce with a Grow-shop theme, it has a shopping cart, Mercado pago, register and login with firebase, a relational database that saves user purchases and an administrator panel.",
     },
     {
       link: "https://portafolio-one-chi.vercel.app/",
