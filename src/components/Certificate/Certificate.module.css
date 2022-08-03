@@ -16,3 +16,41 @@
     position: relative;
     top: 50px;    
 }
+.mouseScroll{
+    width: 2.1em;
+    height: 4em;
+    border: solid 2px #fff;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+
+.mouseScroll::before{
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    left: 14px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    animation: scroll 1.5s infinite;
+    background-color: #fff;
+
+}
+.arrowScroll{
+    position: relative;
+    height: 4em;
+}
+
+@keyframes scroll{
+    0%{
+        bottom: 80%;
+        opacity: 1;
+    }
+  
+    100%{
+        bottom: 20%;
+        opacity: 0;
+    }
+}

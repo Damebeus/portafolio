@@ -40,6 +40,9 @@ const Projects = () => {
           <h1>Projects</h1>
         </div>
         <Slider imagenes={mockImagenes} />
+        <div className={style.mouseScroll}>
+          <div className={style.arrowScroll}></div>
+        </div>
       </div>
       ;
     </section>

@@ -41,6 +41,9 @@ const Certificate = () => {
           <h1>Certificate</h1>
         </div>
         <Slider imagenes={mockImagenes} />
+        <div className={style.mouseScroll}>
+          <div className={style.arrowScroll}></div>
+        </div>
       </div>
     </section>
   );
