@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./Contact.module.css";
 import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
@@ -8,7 +8,14 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { SiGooglemaps } from "react-icons/si";
+import "aos/dist/aos.css";
+import Aos from "aos";
+
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: true });
+  }, []);
+
   return (
     <section className='section' id='Contact'>
       <div className={style.container}>
@@ -17,7 +24,7 @@ const Contact = () => {
         </div>
 
         <div className={style.columna}>
-          <div className={style.columnaForm}>
+          <div className={style.columnaForm} data-aos='fade-right'>
             <div className={style.formInput}>
               <form>
                 <div className={style.row}>
@@ -57,7 +64,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className={style.columnaInfo}>
+          <div className={style.columnaInfo} data-aos='fade-left'>
             <div className={style.botoncitos}>
               <a href='https://github.com/Damebeus' target='_blank'>
                 <AiFillGithub />

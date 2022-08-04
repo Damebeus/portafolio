@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./Projects.module.css";
 import Slider from "../Proslider/Proslider";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Projects = () => {
   const mockImagenes = [
     {
@@ -32,6 +34,9 @@ const Projects = () => {
         "It is a small project that has just started but I hope to be able to expand with my skills over time",
     },
   ];
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: true });
+  }, []);
 
   return (
     <section className={style.section} id='Projects'>
@@ -39,7 +44,9 @@ const Projects = () => {
         <div className={style.title}>
           <h1>Projects</h1>
         </div>
-        <Slider imagenes={mockImagenes} />
+        <div data-aos='fade-right'>
+          <Slider imagenes={mockImagenes} />
+        </div>
         <div className={style.mouseScroll}>
           <div className={style.arrowScroll}></div>
         </div>

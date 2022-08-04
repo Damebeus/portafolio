@@ -1,14 +1,20 @@
 import React from "react";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 import style from "./AboutMe.module.css";
 import perfil from "./perfil.png";
+import { useEffect } from "react";
 
 const AboutMe = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: false });
+  }, []);
+
   return (
     <section className={style.section} id='About'>
       <div className={style.container}>
         <div className={style.subcontainer}>
-          <div className={style.imagen}>
+          <div className={style.imagen} data-aos='fade-right'>
             <img
               id='perfil'
               className={style.scroll}
@@ -18,7 +24,7 @@ const AboutMe = () => {
               width={250}
             />
           </div>
-          <div className={style.texto}>
+          <div className={style.texto} data-aos='fade-left'>
             <div className={style.infoText}>
               <p>I work in</p>
               <ul>
