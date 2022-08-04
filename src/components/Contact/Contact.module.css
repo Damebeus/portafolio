@@ -70,7 +70,10 @@
     border:2px solid #1BD682 ;
     background: transparent;
     font-size:15px;
+    color: white;
+    
 }
+
 
 .formGroup label{
     height: 100%;
