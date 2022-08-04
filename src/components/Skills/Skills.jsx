@@ -154,6 +154,9 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <div className={style.mouseScroll}>
+        <div className={style.arrowScroll}></div>
+      </div>
     </section>
   );
 };
