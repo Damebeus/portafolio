@@ -35,11 +35,12 @@ const AboutMe = () => {
             </div>
             <div className={style.bot}>
               <p>
-                Soy un desarrollador web con experiencia en desarrollo de
-                aplicaciones web. Me gusta trabajar con tecnologías como React,
-                NodeJS, MongoDB, Mongoose, Express, etc. Me gusta trabajar con
-                frameworks como React, Angular, etc. Me gusta trabajar con
-                herramientas como Git, GitHub, etc.
+                Completely passionate about the Front-end and design.
+                <br /> I love working in a team and I enjoy new challenges, I am
+                very perfectionist and I don't usually settle easily, so I work
+                very hard to achieve my goals. I always seek to leave my mark on
+                projects, leaving part of my spirit in them. Do not hesitate to
+                contact me I hope we can do great things together.
               </p>
               <div className={style.buttons}>
                 <button className={style.slide}>

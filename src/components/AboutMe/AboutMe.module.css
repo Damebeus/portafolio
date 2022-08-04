@@ -52,8 +52,9 @@ scroll-snap-align: start;
 }
 .texto{
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 25%;
+    
 }
 .infoText {
     width: 550px;
