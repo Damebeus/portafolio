@@ -90,7 +90,7 @@ const Skills = () => {
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, -350, -350, 0, 450],
+                translateY: [0, 0, -350, -350, 0],
               }}
               transition={{
                 duration: 2,
