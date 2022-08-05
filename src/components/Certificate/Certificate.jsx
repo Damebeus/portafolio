@@ -4,6 +4,9 @@ import Slider from "../Slider/Slider";
 const Certificate = () => {
   const mockImagenes = [
     {
+      url: "https://res.cloudinary.com/cordoba/image/upload/v1659732091/Titulos/titulo_henry_s3zgfj.png",
+    },
+    {
       url: "https://res.cloudinary.com/cordoba/image/upload/v1659434565/Titulos/UC-504f862e-f374-482a-b52c-ce3f6a78d856_gidwqf.jpg",
     },
     {

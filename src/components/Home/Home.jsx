@@ -10,32 +10,44 @@ import style from "./Home.module.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className={style.fullscren}>
       {" "}
       <NavBar />
-      <section className={style.sec1}>
-        {" "}
-        <Welcome />
-      </section>
-      <section className={style.sec2}>
-        <AboutMe />
-      </section>
-      <section className={style.sec3}>
-        {" "}
-        <Skills />
-      </section>
-      <section className={style.sec4}>
-        {" "}
-        <Projects />
-      </section>
-      <section className={style.sec5}>
-        {" "}
-        <Certificate />
-      </section>
-      <section className={style.sec6}>
-        {" "}
-        <Contact />
-      </section>
+      <div className={style.container}>
+        <section className={style.sec1}>
+          {" "}
+          <Welcome />
+        </section>
+      </div>
+      <div className={style.container}>
+        <section className={style.sec2}>
+          <AboutMe />
+        </section>
+      </div>
+      <div className={style.container}>
+        <section className={style.sec3}>
+          {" "}
+          <Skills />
+        </section>
+      </div>
+      <div className={style.container}>
+        <section className={style.sec4}>
+          {" "}
+          <Projects />
+        </section>
+      </div>
+      <div className={style.container}>
+        <section className={style.sec5}>
+          {" "}
+          <Certificate />
+        </section>
+      </div>
+      <div className={style.container}>
+        <section className={style.sec6}>
+          {" "}
+          <Contact />
+        </section>
+      </div>
     </div>
   );
 };
