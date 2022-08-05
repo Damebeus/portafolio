@@ -160,25 +160,19 @@ scroll-snap-align: start;
 
 
 
-.slide:hover,
-.slide:focus {
-  box-shadow: inset 10.5em 0 0 0 var(--hover);
-}
-.slide {
-    --color: #1BD682;
-    --hover:  #1BD682;
-    transition: .6s;
-  }
+
   
   button {
-    color: var(--color);
-    -webkit-transition: 0.25s;
     transition: 0.25s;
+ 
+    color: #1BD682;
   } 
 /*   probar borrar */
 
   button:hover, button:focus {
-    border-color: var(--hover);
+    background-color: #1BD682;
+    border-color: #1BD682;
+    transition: 1.5s;
     color: #fff;
   }
   button {

@@ -74,6 +74,12 @@
     
 }
 
+.formGroup  textarea:focus{
+    border:2px solid #fdfdfd ;
+}
+.formGroup  input:focus{
+    border:2px solid #fdfdfd ;
+}
 
 .formGroup label{
     height: 100%;
