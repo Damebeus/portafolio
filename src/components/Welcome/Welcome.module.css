@@ -89,7 +89,7 @@
         background-position: 0% 0%;
     }
     100%{
-        background-position: 20% 100%;
+        background-position: -20% 100%;
     }
 
 }
