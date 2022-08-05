@@ -27,7 +27,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
             <motion.div
@@ -44,7 +44,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
             <motion.div
@@ -61,7 +61,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
             <motion.div
@@ -78,7 +78,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
           </div>
@@ -97,7 +97,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
             <motion.div
@@ -114,7 +114,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
             <motion.div
@@ -131,7 +131,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
             <motion.div
@@ -148,7 +148,7 @@ const Skills = () => {
                 ease: "easeInOut",
                 times: [0, 0.4, 0.6, 0.8, 1],
                 loop: Infinity,
-                repeatDelay: 2,
+                repeatDelay: 1.5,
               }}
             />
           </div>
