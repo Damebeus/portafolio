@@ -64,21 +64,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className={style.columnaInfo} data-aos='fade-left'>
-            <div className={style.botoncitos}>
-              <a href='https://github.com/Damebeus' target='_blank'>
-                <AiFillGithub />
-              </a>
-              <a href='https://www.instagram.com/damian_ebeus/' target='_blank'>
-                <AiOutlineInstagram />
-              </a>
-              <a
-                href='https://www.linkedin.com/in/damian-ebeus/'
-                target='_blank'
-              >
-                <AiFillLinkedin />
-              </a>
-            </div>
+          <div className={style.columnaInfo} data-aos='fade-up'>
             <div className={style.ubicacion}>
               <div className={style.ubicacionIcon}>
                 <SiGooglemaps />
@@ -86,8 +72,32 @@ const Contact = () => {
                   <p>Argentina - Villa Carlos Paz</p>
                 </a>
                 <hr />
-                <p>Povincia de Cordoba</p>
+                <a href='https://goo.gl/maps/dzzs4P3exzRDP3AA7' target='_blank'>
+                  <p>Provincia de Cordoba</p>
+                </a>
               </div>
+            </div>
+            {/*   <div className={style.columnaInfo} data-aos='fade-left'> */}
+            <div className={style.ubicacion}>
+              <div className={style.botoncitos}>
+                <a href='https://github.com/Damebeus' target='_blank'>
+                  <AiFillGithub />
+                </a>
+                <a
+                  href='https://www.instagram.com/damian_ebeus/'
+                  target='_blank'
+                >
+                  <AiOutlineInstagram />
+                </a>
+                <a
+                  href='https://www.linkedin.com/in/damian-ebeus/'
+                  target='_blank'
+                >
+                  <AiFillLinkedin />
+                </a>
+              </div>
+            </div>
+            <div className={style.ubicacion}>
               <div className={style.emailIcon}>
                 <AiOutlineMail />
                 <p>
