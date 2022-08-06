@@ -26,8 +26,8 @@
    
 }
 .columnaForm{
-    
-    width: 50%;
+     width: 50%;
+     max-height: 60vh;
 }
 
 .columnaInfo{
@@ -37,6 +37,7 @@
     margin-top: 5%;
     align-items: center;
     width: 50%;
+    max-height: 15vh;
 
     
 }
