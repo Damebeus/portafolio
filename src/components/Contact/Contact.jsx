@@ -64,7 +64,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className={style.columnaInfo} data-aos='fade-up'>
+          <div className={style.columnaInfo} data-aos='fade-left'>
             <div className={style.ubicacion}>
               <div className={style.ubicacionIcon}>
                 <SiGooglemaps />
