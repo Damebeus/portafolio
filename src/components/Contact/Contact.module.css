@@ -1,5 +1,5 @@
 .container{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background: #000000;
     background: -moz-linear-gradient(top, #000000 0%, #000000 80%, #0F0F11 100%);
@@ -23,8 +23,8 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    height: 100vh;
-/*     margin-bottom: 5%; */
+ 
+    margin-top: 3%;
    
 }
 .columnaForm{
