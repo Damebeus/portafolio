@@ -1,12 +1,11 @@
 .section {
-
   height: 100vh;
-  scroll-snap-type: y mandatory; 
+  
 }
 
 .container{
-    height: 100vh;
-    width: 100%;
+max-width: 100vw;
+height: 100vh;
 background: #000000;
 background: -moz-linear-gradient(top, #000000 0%, #000000 80%, #0F0F11 100%);
 background: -webkit-linear-gradient(top, #000000 0%, #000000 80%, #0F0F11 100%);
@@ -158,16 +157,12 @@ scroll-snap-align: start;
     }
 }
 
-
-
-
-  
   button {
     transition: 0.25s;
  
     color: #1BD682;
   } 
-/*   probar borrar */
+
 
   button:hover, button:focus {
     background-color: #1BD682;
