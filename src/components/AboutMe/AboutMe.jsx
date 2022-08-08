@@ -4,6 +4,9 @@ import "aos/dist/aos.css";
 import style from "./AboutMe.module.css";
 import perfil from "./perfil.png";
 import { useEffect } from "react";
+import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -23,6 +26,20 @@ const AboutMe = () => {
               height={250}
               width={250}
             />
+            <div className={style.botoncitos}>
+              <a href='https://github.com/Damebeus' target='_blank'>
+                <AiFillGithub />
+              </a>
+              <a href='https://www.instagram.com/damian_ebeus/' target='_blank'>
+                <AiOutlineInstagram />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/damian-ebeus/'
+                target='_blank'
+              >
+                <AiFillLinkedin />
+              </a>
+            </div>
           </div>
           <div className={style.texto} data-aos='fade-left'>
             <div className={style.infoText}>
