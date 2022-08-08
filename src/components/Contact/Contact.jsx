@@ -10,14 +10,18 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { SiGooglemaps } from "react-icons/si";
 import "aos/dist/aos.css";
 import Aos from "aos";
+import Swal from "sweetalert2";
 import { useForm, ValidationError } from "@formspree/react";
+
 const Contact = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, once: false });
   }, []);
+
   const [state, handleSubmit] = useForm("xqkjzvoq");
+
   if (state.succeeded) {
-    alert("Message sent!");
+    Swal.fire("Message sent!", "thanks you for contacting me.", "success");
   }
   return (
     <section className='section' id='Contact'>
@@ -39,7 +43,7 @@ const Contact = () => {
                     </label>
                   </div>
                   <div className={style.formGroup}>
-                    <input type='text' id='number' />
+                    <input type='text' id='number' required />
                     <label htmlFor='text'>
                       <AiOutlinePhone />
                        Number
