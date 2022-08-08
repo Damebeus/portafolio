@@ -19,7 +19,11 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xqkjzvoq");
 
   if (state.succeeded) {
-    Swal.fire("Message sent!", "thanks you for contacting me.", "success");
+    Swal.fire("Message sent!", "thanks you for contacting me.", "success").then(
+      () => {
+        window.location.reload();
+      }
+    );
   }
   return (
     <section className='section' id='Contact'>
