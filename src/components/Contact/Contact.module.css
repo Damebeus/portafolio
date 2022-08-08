@@ -1,0 +1,114 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 0%, #000000 80%, #0F0F11 100%);
+    background: -webkit-linear-gradient(top, #000000 0%, #000000 80%, #0F0F11 100%);
+    background: linear-gradient(to bottom, #000000 0%, #000000 80%, #0F0F11 100%);
+    }
+
+.title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1BD682;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+}
+.columna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+   
+   
+}
+.columnaForm{
+     width: 100vh;
+    }
+    
+
+.formInput{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 15%;
+    margin-left: 18%;
+    
+}
+
+
+.formInput input{
+    color: #fff;
+}
+
+.formGroup{
+    margin-bottom: 30px;
+    position: relative;
+}
+.formGroup input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border:2px solid #1BD682 ;
+    background: transparent;
+    font-size:15px;
+    color: white;
+    
+}
+
+.formGroup  textarea:focus{
+    border:2px solid #fdfdfd ;
+}
+.formGroup  input:focus{
+    border:2px solid #fdfdfd ;
+}
+
+.formGroup label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+
+}
+
+.btn button{
+    padding: 10px 0;
+    color: white;
+    outline: none;
+    border: 1px solid #1BD682;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.slide:hover{
+ /*    background-color: #1BD682; */
+    transition:  2s;
+box-shadow: inset 20em 0 0 20em #1BD682;
+
+}
+
+.formGroup input:focus~label, 
+.formGroup input:valid~label, 
+.formGroup textarea:focus~label, 
+.formGroup textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .formGroup{
+    flex-basis: 48%;
+}
