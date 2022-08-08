@@ -7,6 +7,9 @@ const Certificate = () => {
       url: "https://res.cloudinary.com/cordoba/image/upload/v1659732091/Titulos/titulo_henry_s3zgfj.png",
     },
     {
+      url: "https://res.cloudinary.com/cordoba/image/upload/v1659942923/Titulos/react_basico_cdkv1l.png",
+    },
+    {
       url: "https://res.cloudinary.com/cordoba/image/upload/v1659434565/Titulos/UC-504f862e-f374-482a-b52c-ce3f6a78d856_gidwqf.jpg",
     },
     {
@@ -35,6 +38,12 @@ const Certificate = () => {
     },
     {
       url: "https://res.cloudinary.com/cordoba/image/upload/v1659434549/Titulos/UC-2569ec81-e3b1-4e8d-8463-d28ee77130cb_alj1wd.jpg",
+    },
+    {
+      url: "https://res.cloudinary.com/cordoba/image/upload/v1659942923/Titulos/html_basico_mjycqc.png",
+    },
+    {
+      url: "https://res.cloudinary.com/cordoba/image/upload/v1659942923/Titulos/js_envfne.png",
     },
   ];
   return (

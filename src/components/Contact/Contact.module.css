@@ -35,8 +35,8 @@
     display: flex;
     flex-direction: column;
 
+    margin: auto;
     margin-top: 15%;
-    margin-left: 18%;
     
 }
 
@@ -48,6 +48,7 @@
 .formGroup{
     margin-bottom: 30px;
     position: relative;
+    user-select: none
 }
 .formGroup input, textarea{
     width: 100%;
@@ -58,6 +59,10 @@
     font-size:15px;
     color: white;
     
+}
+.formGroup textarea{
+    user-select: none;
+    resize: vertical;
 }
 
 .formGroup  textarea:focus{
@@ -76,6 +81,7 @@
     color: #fff;
     cursor: text;
     transition: 0.2s;
+    user-select: none
 
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 import style from "./AboutMe.module.css";
 import perfil from "./perfil.png";
 import { useEffect } from "react";

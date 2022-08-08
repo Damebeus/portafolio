@@ -45,7 +45,7 @@ const Contact = () => {
                     </label>
                   </div>
                   <div className={style.formGroup}>
-                    <input type='text' id='number' required />
+                    <input type='tel' id='number' required />
                     <label htmlFor='text'>
                       <AiOutlinePhone />
                        Number
@@ -76,8 +76,7 @@ const Contact = () => {
                     errors={state.errors}
                   />
                   <label>
-                    <BiMessageDetail />
-                     Message
+                    <BiMessageDetail />  Message
                   </label>
                 </div>
                 <div className={style.btn} data-aos='fade-up'>

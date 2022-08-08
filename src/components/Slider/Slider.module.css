@@ -40,7 +40,9 @@
 	border: 2px solid #1BD682;
 	padding: 1vmin;
 	position: relative;
-	margin: 3vmin;
+	/* margin: 3vmin; */
+	margin-right: 10px;
+	margin-left: 10px;
 	background-color: transparent;
 	color: white;
 }

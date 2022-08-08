@@ -69,8 +69,8 @@ scroll-snap-align: start;
 }
 .botoncitos a:hover{
   color: #1BD682;
-  transition: .7s;
-  transform: rotateY(360deg);
+  transition: .5s;
+  /* transform: rotateX(360deg); */
 }
 
 

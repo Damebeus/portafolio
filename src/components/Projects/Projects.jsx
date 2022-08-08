@@ -28,7 +28,7 @@ const Projects = () => {
     },
     {
       link: "https://portafolio-one-chi.vercel.app/",
-      url: "https://images.fineartamerica.com/images/artworkimages/medium/2/retro-80s-90s-vaporwave-palm-trees-gift-pink-blue-design-design-dc-designs-suamaceir-transparent.png",
+      url: "https://res.cloudinary.com/cordoba/image/upload/v1659944396/random/sho-removebg-preview_g0okw0.png",
       name: "This portafolio",
       description:
         "It is a small project that has just started but I hope to be able to expand with my skills over time",
