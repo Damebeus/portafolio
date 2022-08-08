@@ -17,7 +17,7 @@ const Contact = () => {
   }, []);
   const [state, handleSubmit] = useForm("xqkjzvoq");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    alert("Message sent!");
   }
   return (
     <section className='section' id='Contact'>
@@ -39,7 +39,7 @@ const Contact = () => {
                     </label>
                   </div>
                   <div className={style.formGroup}>
-                    <input type='text' id='number' required />
+                    <input type='text' id='number' />
                     <label htmlFor='text'>
                       <AiOutlinePhone />
                        Number
@@ -58,8 +58,18 @@ const Contact = () => {
                   </label>
                 </div>
                 <div className={style.formGroup} data-aos='fade-right'>
-                  <textarea id='message' rows={8} required></textarea>
-                  <label htmlFor='message'>
+                  <textarea
+                    id='message'
+                    name='message'
+                    rows={8}
+                    required
+                  ></textarea>
+                  <ValidationError
+                    prefix='Message'
+                    field='message'
+                    errors={state.errors}
+                  />
+                  <label>
                     <BiMessageDetail />
                      Message
                   </label>
