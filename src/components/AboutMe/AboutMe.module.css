@@ -12,7 +12,7 @@ background: -webkit-linear-gradient(top, #000000 0%, #000000 80%, #0F0F11 100%);
 background: linear-gradient(to bottom, #000000 0%, #000000 80%, #0F0F11 100%);
 scroll-snap-align: start;
    /*   overflow-y: scroll; */
-
+   overflow: hidden;
 
 }
 .subcontainer{
@@ -81,7 +81,7 @@ scroll-snap-align: start;
     color: #fff;
     font-size: 22px;
     margin-left: 25%;
-    overflow: hidden;
+   /*  overflow: hidden; */
     
 }
 .infoText {
@@ -93,7 +93,6 @@ scroll-snap-align: start;
     display: flex;
     position: relative;
     top: -40px;
- 
     overflow: hidden;
   }
   .infoText li {
