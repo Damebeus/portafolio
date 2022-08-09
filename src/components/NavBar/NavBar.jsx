@@ -1,11 +1,21 @@
 import React from "react";
 import style from "./NavBar.module.css";
 import { Link } from "react-scroll";
+import es from "./es.png";
+import en from "./en.png";
 import { useTranslation } from "react-i18next";
 const NavBar = () => {
   const { t, i18n } = useTranslation("global");
   return (
     <div className={style.container}>
+      <div className={style.lenguaje}>
+        <button onClick={() => i18n.changeLanguage("es")}>
+          <img src={es} />
+        </button>
+        <button onClick={() => i18n.changeLanguage("en")}>
+          <img src={en} />
+        </button>
+      </div>
       <div className={style.botones}>
         <Link
           activeClass={style.selectedLink}

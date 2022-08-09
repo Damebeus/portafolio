@@ -51,6 +51,7 @@ height: 100vh;
 	position: relative;
 	margin: 3vmin;
 	color: white;
+	background-color: transparent;
 }
 
 .btn:hover{

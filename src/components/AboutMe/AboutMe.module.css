@@ -184,20 +184,20 @@ scroll-snap-align: start;
     }
 }
 
-  button {
+  .buttons button {
     transition: 0.25s;
  
     color: #1BD682;
   } 
 
 
-  button:hover, button:focus {
+ .buttons  button:hover, button:focus {
     background-color: #1BD682;
     border-color: #1BD682;
     transition: 1.5s;
     color: #fff;
   }
-  button {
+ .buttons  button {
     background: none;
     border: 2px solid;
     font: inherit;
@@ -208,9 +208,9 @@ scroll-snap-align: start;
     cursor: pointer;
     
   }  
-  button a{
+ .buttons button a{
     color: #1BD682;
   }
-    button:hover a, button:focus a {
+  .buttons  button:hover a, button:focus a {
         color: #fff;
     }
