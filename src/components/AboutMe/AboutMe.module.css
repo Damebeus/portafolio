@@ -12,7 +12,7 @@ background: -webkit-linear-gradient(top, #000000 0%, #000000 80%, #0F0F11 100%);
 background: linear-gradient(to bottom, #000000 0%, #000000 80%, #0F0F11 100%);
 scroll-snap-align: start;
    /*   overflow-y: scroll; */
-   overflow: hidden;
+
 
 }
 .subcontainer{
