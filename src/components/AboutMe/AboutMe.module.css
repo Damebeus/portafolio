@@ -191,13 +191,13 @@ scroll-snap-align: start;
   } 
 
 
- .buttons  button:hover, button:focus {
+ .slide:hover {
     background-color: #1BD682;
     border-color: #1BD682;
     transition: 1.5s;
     color: #fff;
   }
- .buttons  button {
+ .slide {
     background: none;
     border: 2px solid;
     font: inherit;
@@ -208,9 +208,10 @@ scroll-snap-align: start;
     cursor: pointer;
     
   }  
- .buttons button a{
+ .slide a{
     color: #1BD682;
   }
-  .buttons  button:hover a, button:focus a {
+  .slide:hover a{
         color: #fff;
+        transition: 1.5s;
     }

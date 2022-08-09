@@ -95,6 +95,10 @@
     
 }
 
+.slide{
+    background-color: transparent;
+}
+
 .slide:hover{
  /*    background-color: #1BD682; */
     transition:  2s;
