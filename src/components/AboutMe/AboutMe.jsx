@@ -45,7 +45,7 @@ const AboutMe = () => {
               </a>
             </div>
           </div>
-          <div className={style.texto} data-aos='fade-left'>
+          <div className={style.texto} data-aos='fade-up'>
             <div className={style.infoText}>
               <p>{t("AboutMe.Flasher")}</p>
               <ul>
