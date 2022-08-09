@@ -18,6 +18,7 @@
     text-align: center;
     justify-content: space-around;
     min-height: 100vh;
+    user-select: none;
     
 }
 .titulo h2{
@@ -76,7 +77,14 @@
 
 
 
+.letras{
+margin-right: 50px;
 
+}
+.letras2{
+margin-left: 50px;
+
+}
 
 .rain{
     height: 100vh;
