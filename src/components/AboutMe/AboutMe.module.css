@@ -81,6 +81,7 @@ scroll-snap-align: start;
     color: #fff;
     font-size: 22px;
     margin-left: 25%;
+    width: 50%;
    /*  overflow: hidden; */
     
 }
