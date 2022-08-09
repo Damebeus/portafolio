@@ -1,6 +1,7 @@
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
 import style from "./AboutMe.module.css";
 import perfil from "./perfil.png";
@@ -13,6 +14,8 @@ const AboutMe = () => {
   useEffect(() => {
     Aos.init({ duration: 1500, once: false });
   }, []);
+
+  const { t, i18n } = useTranslation("global");
 
   return (
     <section className={style.section} id='About'>
@@ -44,7 +47,7 @@ const AboutMe = () => {
           </div>
           <div className={style.texto} data-aos='fade-left'>
             <div className={style.infoText}>
-              <p>I work in</p>
+              <p>{t("AboutMe.Flasher")}</p>
               <ul>
                 <li>Front-End</li>
                 <li className={style.nombreBack}> Back-End</li>
@@ -53,12 +56,15 @@ const AboutMe = () => {
             </div>
             <div className={style.bot}>
               <p>
-                Completely passionate about the Front-end and design.
+                {/*  Completely passionate about the Front-end and design.
                 <br /> I love working in a team and I enjoy new challenges, I am
                 very perfectionist and I don't usually settle easily, so I work
                 very hard to achieve my goals. I always seek to leave my mark on
                 projects, leaving part of my spirit in them. Do not hesitate to
-                contact me I hope we can do great things together.
+                contact me I hope we can do great things together. */}
+                {t("AboutMe.bio")}
+                <br></br>
+                {t("AboutMe.bio2")}
               </p>
               <div className={style.buttons}>
                 <button className={style.slide}>
@@ -68,7 +74,7 @@ const AboutMe = () => {
                     download
                   >
                     {" "}
-                    Watch my CV
+                    {t("AboutMe.cv")}
                   </a>
                 </button>
               </div>

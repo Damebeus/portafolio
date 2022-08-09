@@ -3,13 +3,15 @@ import style from "./Skills.module.css";
 import { motion } from "framer-motion";
 import { react } from "./react.png";
 import { redux } from "./redux.png";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const { t, i18n } = useTranslation("global");
   return (
     <section className={style.section} id='Skills'>
       <div className={style.container}>
         <div className={style.title}>
-          <h1>Skills</h1>
+          <h1>{t("NavBar.Skills")}</h1>
         </div>
         <div>
           <div className={style.fila1}>

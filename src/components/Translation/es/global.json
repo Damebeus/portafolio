@@ -1,0 +1,40 @@
+{
+
+    "NavBar":{
+        "Home":"Inicio",
+        "About":"Sobre mi",
+        "Skills":"Habilidades",
+        "Projects":"Proyectos",
+        "Certificates":"Certificados",
+        "Contact":"Contacto"
+    },
+
+    "AboutMe":{
+        "bio":"Completamente apasionado por el Front-end y el diseño.",
+        "bio2":"Me encanta trabajar en equipo y disfruto de los nuevos retos, soy muy perfeccionista y no suelo conformarme fácilmente, por lo que trabajo muy duro para conseguir mis objetivos. Siempre busco dejar mi huella en los proyectos, dejando en ellos parte de mi espíritu. No dudes en contactarme, espero que podamos hacer grandes cosas juntos.",
+        "Flasher": "Trabajo en",
+        "cv": "Mira mi CV"
+    },
+
+    "Projects":{
+        "Videogames": "APP DE JUEGOS",
+        "VideogamesDesc": "Aplicación con una api de Rawg.io con información de Videojuegos, filtros por Nombre, géneros, reputación. Base de datos relacional con videojuegos creados por usuarios",
+        "Countries": "APP DE PAISES",
+        "CountriesDesc" :"Aplicación con una api de descanso con información de países, filtros por información territorial y base de datos relacional con propuestas de actividades por país",
+        "GrowShop": "GrowShop",
+        "GrowShopDesc": "Ecommerce funcional con tema Grow-shop, cuenta con carrito de compras, Mercado pago, registro e inicio de sesión con firebase, base de datos relacional que guarda las compras de los usuarios y panel de administrador.",
+        "Portfolio": "Portfolio",
+        "PortfolioDesc": "Es un pequeño proyecto que acaba de empezar pero espero poder ampliar con mis habilidades con el tiempo"
+    },
+    "Contact":{
+       
+        "Name": "Nombre",
+        "Number": "Numero",
+        "Email": "Email",
+        "Message": "Mensaje",
+        "Send": "Enviar"
+    }
+
+
+
+}

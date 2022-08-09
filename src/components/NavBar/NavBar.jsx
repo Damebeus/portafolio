@@ -1,8 +1,9 @@
 import React from "react";
 import style from "./NavBar.module.css";
 import { Link } from "react-scroll";
-
+import { useTranslation } from "react-i18next";
 const NavBar = () => {
+  const { t, i18n } = useTranslation("global");
   return (
     <div className={style.container}>
       <div className={style.botones}>
@@ -14,7 +15,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          Home
+          {t("NavBar.Home")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -24,7 +25,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          About
+          {t("NavBar.About")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -34,7 +35,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          Skills
+          {t("NavBar.Skills")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -44,7 +45,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          Projects
+          {t("NavBar.Projects")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -54,7 +55,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          Certificates
+          {t("NavBar.Certificates")}
         </Link>
         <Link
           activeClass={style.selectedLink}
@@ -64,7 +65,7 @@ const NavBar = () => {
           smooth={true}
           duration={800}
         >
-          Contact
+          {t("NavBar.Contact")}
         </Link>
       </div>
     </div>

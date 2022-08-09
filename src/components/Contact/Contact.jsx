@@ -4,6 +4,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { BiMessageDetail } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
 
 import { SiGooglemaps } from "react-icons/si";
 import "aos/dist/aos.css";
@@ -12,6 +13,7 @@ import Swal from "sweetalert2";
 import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
+  const { t, i18n } = useTranslation("global");
   useEffect(() => {
     Aos.init({ duration: 2000, once: false });
   }, []);
@@ -29,7 +31,7 @@ const Contact = () => {
     <section className='section' id='Contact'>
       <div className={style.container}>
         <div className={style.title}>
-          <h1>Contact </h1>
+          <h1>{t("NavBar.Contact")}</h1>
         </div>
 
         <div className={style.columna}>
@@ -40,15 +42,13 @@ const Contact = () => {
                   <div className={style.formGroup}>
                     <input type='text' id='name' required />
                     <label htmlFor='name'>
-                      <AiOutlineUser />
-                       Name
+                      <AiOutlineUser /> {t("Contact.Name")}
                     </label>
                   </div>
                   <div className={style.formGroup}>
                     <input type='tel' id='number' required />
                     <label htmlFor='text'>
-                      <AiOutlinePhone />
-                       Number
+                      <AiOutlinePhone /> {t("Contact.Number")}
                     </label>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ const Contact = () => {
                       field='email'
                       errors={state.errors}
                     />
-                    <AiOutlineMail />  Email
+                    <AiOutlineMail />  {t("Contact.Email")}
                   </label>
                 </div>
                 <div className={style.formGroup} data-aos='fade-right'>
@@ -76,7 +76,7 @@ const Contact = () => {
                     errors={state.errors}
                   />
                   <label>
-                    <BiMessageDetail />  Message
+                    <BiMessageDetail />  {t("Contact.Message")}
                   </label>
                 </div>
                 <div className={style.btn} data-aos='fade-up'>
@@ -85,7 +85,7 @@ const Contact = () => {
                     type='submit'
                     disabled={state.submitting}
                   >
-                    Send
+                    {t("Contact.Send")}
                   </button>
                 </div>
               </form>

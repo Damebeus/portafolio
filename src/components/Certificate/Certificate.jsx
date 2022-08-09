@@ -1,7 +1,9 @@
 import React from "react";
 import style from "./Certificate.module.css";
 import Slider from "../Slider/Slider";
+import { useTranslation } from "react-i18next";
 const Certificate = () => {
+  const { t, i18n } = useTranslation("global");
   const mockImagenes = [
     {
       url: "https://res.cloudinary.com/cordoba/image/upload/v1659732091/Titulos/titulo_henry_s3zgfj.png",
@@ -50,7 +52,7 @@ const Certificate = () => {
     <section className='section' id='Certificate'>
       <div className={style.container}>
         <div className={style.title}>
-          <h1>Certificate</h1>
+          <h1>{t("NavBar.Certificates")}</h1>
         </div>
         <Slider imagenes={mockImagenes} />
         <div className={style.mouseScroll}>
