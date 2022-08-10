@@ -9,11 +9,11 @@ const NavBar = () => {
   return (
     <div className={style.container}>
       <div className={style.lenguaje}>
-        <button onClick={() => i18n.changeLanguage("es")}>
-          <img src={es} />
-        </button>
         <button onClick={() => i18n.changeLanguage("en")}>
           <img src={en} />
+        </button>
+        <button onClick={() => i18n.changeLanguage("es")}>
+          <img src={es} />
         </button>
       </div>
       <div className={style.botones}>

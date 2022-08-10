@@ -184,3 +184,25 @@ height: 0px;
         opacity: 0;
     }
 }
+
+@media screen and (max-width : 768px){
+    .titulo{
+       max-width: 400px;
+       flex-direction: column;
+        
+      
+    }
+    .letras{
+        max-width: 400px;
+        display: flex;
+
+    }
+    .letras2{
+        max-width: 400px;
+        display: flex;
+    }
+    .mouseScroll{
+        display: none;
+    }
+
+}

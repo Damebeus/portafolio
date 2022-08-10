@@ -156,3 +156,20 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width:768px) {
+    .mouseScroll{
+        display: none;
+    }
+
+    .filas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+     .filas {
+        display: none;
+    }
+}

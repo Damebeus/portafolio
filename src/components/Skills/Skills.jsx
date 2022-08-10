@@ -13,7 +13,7 @@ const Skills = () => {
         <div className={style.title}>
           <h1>{t("NavBar.Skills")}</h1>
         </div>
-        <div>
+        <div className={style.filas}>
           <div className={style.fila1}>
             <motion.div
               className={style.box}

@@ -42,7 +42,7 @@ const Projects = () => {
         <div className={style.title}>
           <h1>{t("NavBar.Projects")}</h1>
         </div>
-        <div data-aos='fade-right'>
+        <div data-aos='fade-right' className={style.carru}>
           <Slider imagenes={mockImagenes} />
         </div>
         <div className={style.mouseScroll}>

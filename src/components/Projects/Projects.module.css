@@ -62,3 +62,13 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width:768px){
+    .carru{
+        position: relative;
+       margin-left: 50%;
+    }
+    .mouseScroll{
+        display: none;
+    }
+}

@@ -35,20 +35,22 @@ function Slider({ imagenes }) {
             key={index}
           >
             {imagenActual === index && (
-              <div>
-                <div className={style.text}>
-                  <h2 className={style.name}>{imagen.name}</h2>
-                  <p className={style.description}>{imagen.description}</p>
-                </div>
-                <div className={style.imgC}>
-                  <a href={imagen.link} rel='noreferrer' target='_blank'>
-                    <img
-                      key={index}
-                      src={imagen.url}
-                      alt='imagen'
-                      className={style.img}
-                    />
-                  </a>
+              <div className={style.contenedor}>
+                <div className={style.mobile}>
+                  <div className={style.text}>
+                    <h2 className={style.name}>{imagen.name}</h2>
+                    <p className={style.description}>{imagen.description}</p>
+                  </div>
+                  <div className={style.imgC}>
+                    <a href={imagen.link} rel='noreferrer' target='_blank'>
+                      <img
+                        key={index}
+                        src={imagen.url}
+                        alt='imagen'
+                        className={style.img}
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             )}

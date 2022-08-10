@@ -77,3 +77,21 @@
 	/* right: 50px; */
     /* position:sticky */
 }
+@media screen and (max-width:768px){
+	.imgC{
+		width: 250px;
+		height: 250px;
+	}
+	.img{
+		width: 100vw;
+		height: 100vh;
+	}
+	.text{
+		left:50vw;
+	}
+	.description{
+		font-size: 2vmin;
+		left:50vw;
+	}
+
+}

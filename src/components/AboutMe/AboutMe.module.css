@@ -19,6 +19,7 @@ scroll-snap-align: start;
     display: flex;
     margin-left: 10%;
     align-items: center;
+   
     height: 100vh;
     width: 70%; 
   
@@ -217,3 +218,103 @@ scroll-snap-align: start;
         color: #fff;
         transition: 1.5s;
     }
+
+
+    @media screen and (max-width: 1500px) {
+
+        .subcontainer{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          flex-direction: column;
+        }
+        .imagen img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 25%;
+            width:300px;
+            height:300px;
+            
+        }
+        .texto{
+            
+            margin-top: 50px;
+        }
+        .botoncitos{
+          display: flex;
+          align-items:center ;
+          margin-left: 40%;
+          width: 70%;
+          margin-top: 20px;
+          
+        }
+        .infoText{
+            width: 500px;
+            margin-left: 15%;
+        }
+        .infoText ul{
+            padding-left: 25px;
+        }
+        .mouseScroll{
+            display: none;
+        }
+  
+        .slide{
+            margin-top: 50px;
+            margin-left: 30%;
+        }
+    }
+@media screen and (max-width : 768px) {
+    .subcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 914px;
+        flex-direction: column;
+    }
+    .imagen img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        width:250px;
+        height:250px;
+        
+    }
+    .texto{
+      position: relative;
+        margin-left: 30px;
+        margin-top: 40px;
+        max-width: 350px;
+    }
+    .botoncitos{
+      display: flex;
+      align-items:center ;
+      margin-left: 25%;
+      width: 70%;
+      margin-top: 10px;
+      
+    }
+    .infoText{
+      
+        width: 400px;
+        margin-left: -10px;
+    }
+    /* .infoText ul{
+        padding-left: 25px;
+    } */
+    .mouseScroll{
+        display: none;
+    }
+
+    .slide{
+      margin-top: 20px;
+      margin-left: 20%;
+      
+  }
+  
+}
+      
+    
