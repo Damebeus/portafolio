@@ -79,7 +79,7 @@ const Contact = () => {
                     <BiMessageDetail />  {t("Contact.Message")}
                   </label>
                 </div>
-                <div className={style.btn} data-aos='fade-up'>
+                <div className={style.btn} data-aos='fade-left'>
                   <button
                     className={style.slide}
                     type='submit'

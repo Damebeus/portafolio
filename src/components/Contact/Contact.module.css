@@ -123,3 +123,9 @@ box-shadow: inset 20em 0 0 20em #1BD682;
 .row .formGroup{
     flex-basis: 48%;
 }
+
+@media screen and (max-width: 1366px) {
+   /*  .columna{
+        margin-top: -10px;
+    } */
+}
