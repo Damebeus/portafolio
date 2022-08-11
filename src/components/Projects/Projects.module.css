@@ -62,7 +62,12 @@
         opacity: 0;
     }
 }
-
+@media screen and (max-width : 1366px){
+    .mouseScroll{
+        display: none;
+    }
+    
+}
 @media screen and (max-width:768px){
     .carru{
         position: relative;

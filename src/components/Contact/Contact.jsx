@@ -15,7 +15,7 @@ import { useForm, ValidationError } from "@formspree/react";
 const Contact = () => {
   const { t, i18n } = useTranslation("global");
   useEffect(() => {
-    Aos.init({ duration: 2000, once: false });
+    Aos.init({ duration: 2000, once: true });
   }, []);
 
   const [state, handleSubmit] = useForm("xqkjzvoq");

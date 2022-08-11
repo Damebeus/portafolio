@@ -54,3 +54,10 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width : 1366px){
+    .mouseScroll{
+        display: none;
+    }
+    
+}

@@ -216,7 +216,7 @@
   transition: 1.5s;
 }
 
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
   .subcontainer {
     display: flex;
     align-items: center;
@@ -260,7 +260,7 @@
   .botoncitosNote {
     display: none;
   }
-}
+} */
 @media screen and (max-width: 1366px) {
   .containerPrincipal {
     display: none;
