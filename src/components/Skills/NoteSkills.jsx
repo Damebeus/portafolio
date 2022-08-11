@@ -19,7 +19,7 @@ const Skills = () => {
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, 250, 250, 0],
+                translateY: [0, 0, 220, 220, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
               }}
               transition={{
@@ -37,7 +37,7 @@ const Skills = () => {
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 450, 450, 0],
-                translateY: [0, 0, 250, 250, 0],
+                translateY: [0, 0, 220, 220, 0],
               }}
               transition={{
                 duration: 2,
@@ -54,7 +54,7 @@ const Skills = () => {
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, -450, -450, 0],
-                translateY: [0, 0, 250, 250, 0],
+                translateY: [0, 0, 220, 220, 0],
               }}
               transition={{
                 duration: 2,
@@ -70,7 +70,7 @@ const Skills = () => {
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, 250, 250, 0],
+                translateY: [0, 0, 220, 220, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
               }}
               transition={{
@@ -90,7 +90,7 @@ const Skills = () => {
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, -250, -250, 0],
+                translateY: [0, 0, -220, -220, 0],
               }}
               transition={{
                 duration: 2,
@@ -107,7 +107,7 @@ const Skills = () => {
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 450, 450, 0],
-                translateY: [0, 0, -250, -250, 0],
+                translateY: [0, 0, -220, -220, 0],
               }}
               transition={{
                 duration: 2,
@@ -124,7 +124,7 @@ const Skills = () => {
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, -450, -450, 0],
-                translateY: [0, 0, -250, -250, 0],
+                translateY: [0, 0, -220, -220, 0],
               }}
               transition={{
                 duration: 2,
@@ -141,7 +141,7 @@ const Skills = () => {
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, -250, -250, 0],
+                translateY: [0, 0, -220, -220, 0],
               }}
               transition={{
                 duration: 2,
