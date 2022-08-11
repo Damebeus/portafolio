@@ -4,12 +4,13 @@ import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
 import style from "./AboutMe.module.css";
+import styleNote from "./NoteAboutMe.module.css";
 import perfil from "./perfil.png";
 import { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
-
+import NoteAbout from "./NoteAbout";
 const AboutMe = () => {
   useEffect(() => {
     Aos.init({ duration: 1500, once: false });
@@ -19,7 +20,7 @@ const AboutMe = () => {
 
   return (
     <section className={style.section} id='About'>
-      <div className={style.container}>
+      <div className={style.containerPrincipal}>
         <div className={style.subcontainer}>
           <div className={style.imagen} data-aos='fade-right'>
             <img
@@ -54,14 +55,9 @@ const AboutMe = () => {
                 <li className={style.nombrePersonal}>Full-Stack</li>
               </ul>
             </div>
+
             <div className={style.bot}>
               <p>
-                {/*  Completely passionate about the Front-end and design.
-                <br /> I love working in a team and I enjoy new challenges, I am
-                very perfectionist and I don't usually settle easily, so I work
-                very hard to achieve my goals. I always seek to leave my mark on
-                projects, leaving part of my spirit in them. Do not hesitate to
-                contact me I hope we can do great things together. */}
                 {t("AboutMe.bio")}
                 <br></br>
                 {t("AboutMe.bio2")}
@@ -84,6 +80,10 @@ const AboutMe = () => {
         <div className={style.mouseScroll}>
           <div className={style.arrowScroll}></div>
         </div>
+      </div>
+      {/* notebook */}
+      <div className={style.containerNote}>
+        <NoteAbout />
       </div>
     </section>
   );
