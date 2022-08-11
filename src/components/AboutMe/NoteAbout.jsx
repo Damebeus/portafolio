@@ -43,7 +43,7 @@ const AboutMe = () => {
             </button>
           </div>
         </div>
-        <div className={styleNote.subcontainer2}>
+        <div className={styleNote.subcontainer2} data-aos='fade-up'>
           <div className={styleNote.transicion}>
             <div className={styleNote.infoText}>
               <p>{t("AboutMe.Flasher")}</p>

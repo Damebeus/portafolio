@@ -156,7 +156,44 @@
         opacity: 0;
     }
 }
+@media screen and (max-width : 1366px){
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+}
+.box6{
+    width: 100px;
+    height: 100px;
+}
+.box7{
+    width: 100px;
+    height: 100px;
+}
+.box8{
+    width: 100px;
+    height: 100px;
+}
+.mouseScroll{
+    display: none;
+}
 
+}
 @media screen and (max-width:768px) {
     .mouseScroll{
         display: none;
