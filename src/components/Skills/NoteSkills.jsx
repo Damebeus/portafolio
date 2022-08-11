@@ -1,27 +1,25 @@
 import React from "react";
-import style from "./Skills.module.css";
 import { motion } from "framer-motion";
-import { react } from "./react.png";
-import { redux } from "./redux.png";
 import { useTranslation } from "react-i18next";
-import Noteskills from "./NoteSkills";
+import styleNote from "./Noteskills.module.css";
+
 const Skills = () => {
   const { t, i18n } = useTranslation("global");
   return (
-    <section className={style.section} id='Skills'>
-      <div className={style.container}>
-        <div className={style.title}>
+    <section className={styleNote.section} id='Skills'>
+      <div className={styleNote.container}>
+        <div className={styleNote.title}>
           <h1>{t("NavBar.Skills")}</h1>
         </div>
-        <div className={style.filas}>
-          <div className={style.fila1}>
+        <div className={styleNote.filas}>
+          <div className={styleNote.fila1}>
             <motion.div
-              className={style.box}
+              className={styleNote.box}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, 350, 350, 0],
+                translateY: [0, 0, 250, 250, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
               }}
               transition={{
@@ -33,13 +31,13 @@ const Skills = () => {
               }}
             />
             <motion.div
-              className={style.box2}
+              className={styleNote.box2}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 450, 450, 0],
-                translateY: [0, 0, 350, 350, 0],
+                translateY: [0, 0, 250, 250, 0],
               }}
               transition={{
                 duration: 2,
@@ -50,13 +48,13 @@ const Skills = () => {
               }}
             />
             <motion.div
-              className={style.box3}
+              className={styleNote.box3}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, -450, -450, 0],
-                translateY: [0, 0, 350, 350, 0],
+                translateY: [0, 0, 250, 250, 0],
               }}
               transition={{
                 duration: 2,
@@ -67,12 +65,12 @@ const Skills = () => {
               }}
             />
             <motion.div
-              className={style.box4}
+              className={styleNote.box4}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, 350, 350, 0],
+                translateY: [0, 0, 250, 250, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
               }}
               transition={{
@@ -84,15 +82,15 @@ const Skills = () => {
               }}
             />
           </div>
-          <div className={style.fila2}>
+          <div className={styleNote.fila2}>
             <motion.div
-              className={style.box5}
+              className={styleNote.box5}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, -350, -350, 0],
+                translateY: [0, 0, -250, -250, 0],
               }}
               transition={{
                 duration: 2,
@@ -103,13 +101,13 @@ const Skills = () => {
               }}
             />
             <motion.div
-              className={style.box6}
+              className={styleNote.box6}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 450, 450, 0],
-                translateY: [0, 0, -350, -350, 0],
+                translateY: [0, 0, -250, -250, 0],
               }}
               transition={{
                 duration: 2,
@@ -120,13 +118,13 @@ const Skills = () => {
               }}
             />
             <motion.div
-              className={style.box7}
+              className={styleNote.box7}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, -450, -450, 0],
-                translateY: [0, 0, -350, -350, 0],
+                translateY: [0, 0, -250, -250, 0],
               }}
               transition={{
                 duration: 2,
@@ -137,13 +135,13 @@ const Skills = () => {
               }}
             />
             <motion.div
-              className={style.box8}
+              className={styleNote.box8}
               animate={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 360, 360, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 translateX: [0, 0, 0, 0, 0],
-                translateY: [0, 0, -350, -350, 0],
+                translateY: [0, 0, -250, -250, 0],
               }}
               transition={{
                 duration: 2,
@@ -155,13 +153,6 @@ const Skills = () => {
             />
           </div>
         </div>
-        {/* notebook */}
-      </div>
-      <div className={style.mouseScroll}>
-        <div className={style.arrowScroll}></div>
-      </div>
-      <div className={style.notebook}>
-        <Noteskills />
       </div>
     </section>
   );
