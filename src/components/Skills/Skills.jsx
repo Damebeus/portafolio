@@ -155,10 +155,9 @@ const Skills = () => {
             />
           </div>
         </div>
-        {/* notebook */}
-      </div>
-      <div className={style.mouseScroll}>
-        <div className={style.arrowScroll}></div>
+        <div className={style.mouseScroll}>
+          <div className={style.arrowScroll}></div>
+        </div>
       </div>
       <div className={style.notebook}>
         <Noteskills />
