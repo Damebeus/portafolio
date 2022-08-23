@@ -65,7 +65,7 @@ const AboutMe = () => {
               <div className={style.buttons}>
                 <button className={style.slide}>
                   <a
-                    href='https://drive.google.com/file/d/1Dw69qOTdnEoHAE9KZ6i2sCEE_dQit4OF/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1AW0pya3TDP1CE7zF81A6yR4t4Mb-b_CZ/view?usp=sharing'
                     target='_blank'
                     download
                   >
