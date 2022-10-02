@@ -23,6 +23,11 @@
         "GrowShop": "GrowShop",
         "GrowShopDesc": "Functional ecommerce with a Grow-shop theme, it has a shopping cart, Mercado pago, register and login with firebase, a relational database that saves user purchases and an administrator panel.",
         "Portfolio": "Portfolio",
+        "Pistacho": "Pistacho APK",
+        "PistachoDesc": "Online application for a rotisserie in Cordoba (the project is in the final stage, waiting for the owners of the business to send us real quality photographs of the products)",
+        
+        "Any": "Bussines Portfolio",
+        "AnyDesc": "I work with freelance mode, for a company in the United States in which it will be destined to be the portfolio of the same",
         "PortfolioDesc": "It is a small project that has just started but I hope to be able to expand with my skills over time."
     },
     "Contact":{

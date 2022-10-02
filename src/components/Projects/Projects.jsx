@@ -8,6 +8,18 @@ const Projects = () => {
   const { t, i18n } = useTranslation("global");
   const mockImagenes = [
     {
+      link: "https://pistacho.vercel.app/",
+      url: "https://img.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg?w=2000",
+      name: t("Projects.Pistacho"),
+      description: t("Projects.PistachoDesc"),
+    },
+    {
+      link: "https://anycpu.vercel.app/",
+      url: "https://res.cloudinary.com/cordoba/image/upload/v1664743560/random/blacklogo_ddejp3.png",
+      name: t("Projects.Any"),
+      description: t("Projects.AnyDesc"),
+    },
+    {
       link: "https://www.youtube.com/watch?v=wTtGhWYh35c&t=121s",
       url: "https://res.cloudinary.com/cordoba/image/upload/v1659491911/random/folderVideogames_f3owo1.png",
       name: t("Projects.Videogames"),

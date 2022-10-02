@@ -24,6 +24,10 @@
         "GrowShop": "GrowShop",
         "GrowShopDesc": "Ecommerce funcional con tema Grow-shop, cuenta con carrito de compras, Mercado pago, registro e inicio de sesión con firebase, base de datos relacional que guarda las compras de los usuarios y panel de administrador.",
         "Portfolio": "Portfolio",
+        "Pistacho": "Pistacho APK",
+        "PistachoDesc": "Aplicacion en linea para una rotiseria de Cordoba (el proyecto esta en etapa final, esperando que los dueños del negocio nos pasen fotografias reales de calidad, de los productos)",
+        "Any": "Portfolio empresarial",
+        "AnyDesc": "Trabajo con modalidad freelance, para una empresa de estados unidos en el cual sera destinado a ser el portfolio del mismo",
         "PortfolioDesc": "Es un pequeño proyecto que acaba de empezar pero espero poder ampliar con mis habilidades con el tiempo"
     },
     "Contact":{
