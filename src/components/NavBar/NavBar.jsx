@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./NavBar.module.css";
 import { Link } from "react-scroll";
 import es from "./es.png";
@@ -6,19 +6,8 @@ import en from "./en.png";
 import { useTranslation } from "react-i18next";
 const NavBar = () => {
   const { t, i18n } = useTranslation("global");
-  const [navbar, setNavbar] = useState(false);
-
-  const changeBgc = () => {
-    if (window.scrollY >= 100) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-  window.addEventListener("scroll", changeBgc);
-
   return (
-    <div className={navbar ? style.container : style.container2}>
+    <div className={style.container}>
       <div className={style.lenguaje}>
         <button onClick={() => i18n.changeLanguage("en")}>
           <img src={en} />

@@ -46,7 +46,7 @@ const Contact = () => {
                     </label>
                   </div>
                   <div className={style.formGroup}>
-                    <input type='tel' id='number' required />
+                    <input type='text' id='text' required />
                     <label htmlFor='text'>
                       <AiOutlinePhone /> {t("Contact.Number")}
                     </label>
