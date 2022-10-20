@@ -7,12 +7,12 @@ import { useTranslation } from "react-i18next";
 const Projects = () => {
   const { t, i18n } = useTranslation("global");
   const mockImagenes = [
-    {
+/*     {
       link: "https://pistacho.vercel.app/",
       url: "https://img.freepik.com/vector-gratis/mano-humana-sosteniendo-telefono-movil_74855-6532.jpg?w=2000",
       name: t("Projects.Pistacho"),
       description: t("Projects.PistachoDesc"),
-    },
+    }, */
     {
       link: "https://anycpu.vercel.app/",
       url: "https://res.cloudinary.com/cordoba/image/upload/v1664743560/random/blacklogo_ddejp3.png",
